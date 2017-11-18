@@ -1,0 +1,8 @@
+ssh-keygen -t rsa -C "lawrencejiabin@163.com"
+ssh -T git@github.com
+git config --global user.email  "lawrencejiabin@163.com"
+git config user.email
+.gitconfig Ìí¼Ó
+	[credential]
+		helper = store
+git push origin master	
